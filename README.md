@@ -71,5 +71,20 @@
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/home-assistant-app.git
+   - git clone https://github.com/AYOUBESMAHI/Home_Assistant.git
+   
+2. Navigate to the backend folder and restore dependencies:
+  - dotnet restore
+  - Configure the SQL Server connection string in appsettings.json.
+ - Run the microservices:
+    - dotnet run
+
+3. Set up the frontend:
+ - Navigate to the frontend folder and install dependencies:
+     - flutter pub get
+ - Run the Flutter app:
+     - flutter run
+   
+4. Access the app:
+ - Backend: http://localhost:8000
+ - Frontend: Use an emulator or physical device to run the Flutter app.
