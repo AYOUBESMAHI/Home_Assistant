@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "owQAxe4Uz+WZjVhpseCG7CGZ2WGh+Drhiw3/aeSN8n0=",
+  "Source": "HomeAssistant.SmartRefrigeratorApi",
+  "BasePath": "_content/HomeAssistant.SmartRefrigeratorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rn37CcOJ1ZWbl8MCVLsyvkYui++epN+TIZDaA4rh7uY=",
+  "Source": "HomeAssistant.SmartMicrowaveApi",
+  "BasePath": "_content/HomeAssistant.SmartMicrowaveApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

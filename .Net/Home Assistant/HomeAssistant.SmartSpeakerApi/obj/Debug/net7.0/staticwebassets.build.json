@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "S+W2h0CPRUjQw77YUVRdzR8IpHWONPczcJEkpsdoIGs=",
+  "Source": "HomeAssistant.SmartSpeakerApi",
+  "BasePath": "_content/HomeAssistant.SmartSpeakerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

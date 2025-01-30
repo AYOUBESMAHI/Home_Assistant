@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WIxvvctQg7KQznZ+3qGM+iAgWj4acYYASsSSWEOKcgU=",
+  "Source": "HomeAssistant.SmartTvApi",
+  "BasePath": "_content/HomeAssistant.SmartTvApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/ZE1kxuijvNiB8oUlOta/x8u38oDYx/r5CbADT8KbBQ=",
+  "Source": "HomeAssistant.SmartWasherApi",
+  "BasePath": "_content/HomeAssistant.SmartWasherApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

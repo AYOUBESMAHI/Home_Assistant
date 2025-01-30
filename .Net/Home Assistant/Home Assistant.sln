@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.Common", "HomeAssistant.Common\HomeAssistant.Common.csproj", "{EE94709F-0218-45F2-852F-11F6317F5C5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartClockApi", "HomeAssistant.SmartClockApi\HomeAssistant.SmartClockApi.csproj", "{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartGarageApi", "HomeAssistant.SmartGarageApi\HomeAssistant.SmartGarageApi.csproj", "{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartLampApi", "HomeAssistant.SmartLampApi\HomeAssistant.SmartLampApi.csproj", "{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartMicrowaveApi", "HomeAssistant.SmartMicrowaveApi\HomeAssistant.SmartMicrowaveApi.csproj", "{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartPlugApi", "HomeAssistant.SmartPlugApi\HomeAssistant.SmartPlugApi.csproj", "{913BF733-322E-4939-BC17-108C1F1DC9D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartRefrigeratorApi", "HomeAssistant.SmartRefrigeratorApi\HomeAssistant.SmartRefrigeratorApi.csproj", "{5216C60F-8856-43C4-A4D7-679FD5E64467}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartSpeakerApi", "HomeAssistant.SmartSpeakerApi\HomeAssistant.SmartSpeakerApi.csproj", "{B8292212-4537-4100-9231-E2934EF1B8DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartThermostatApi", "HomeAssistant.SmartThermostatApi\HomeAssistant.SmartThermostatApi.csproj", "{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartTvApi", "HomeAssistant.SmartTvApi\HomeAssistant.SmartTvApi.csproj", "{666B2DD1-F1E1-4835-9263-84BE9B1263D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.SmartWasherApi", "HomeAssistant.SmartWasherApi\HomeAssistant.SmartWasherApi.csproj", "{8E909021-3D24-4ACA-9808-4F3D97EC50EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{277F8493-647F-460A-A3CC-1EC2DBAE9D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{F67826A0-C7ED-443A-9333-CC64BBB34BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE94709F-0218-45F2-852F-11F6317F5C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE94709F-0218-45F2-852F-11F6317F5C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE94709F-0218-45F2-852F-11F6317F5C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE94709F-0218-45F2-852F-11F6317F5C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913BF733-322E-4939-BC17-108C1F1DC9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913BF733-322E-4939-BC17-108C1F1DC9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913BF733-322E-4939-BC17-108C1F1DC9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913BF733-322E-4939-BC17-108C1F1DC9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5216C60F-8856-43C4-A4D7-679FD5E64467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5216C60F-8856-43C4-A4D7-679FD5E64467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5216C60F-8856-43C4-A4D7-679FD5E64467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5216C60F-8856-43C4-A4D7-679FD5E64467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8292212-4537-4100-9231-E2934EF1B8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8292212-4537-4100-9231-E2934EF1B8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8292212-4537-4100-9231-E2934EF1B8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8292212-4537-4100-9231-E2934EF1B8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666B2DD1-F1E1-4835-9263-84BE9B1263D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666B2DD1-F1E1-4835-9263-84BE9B1263D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666B2DD1-F1E1-4835-9263-84BE9B1263D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666B2DD1-F1E1-4835-9263-84BE9B1263D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E909021-3D24-4ACA-9808-4F3D97EC50EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E909021-3D24-4ACA-9808-4F3D97EC50EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E909021-3D24-4ACA-9808-4F3D97EC50EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E909021-3D24-4ACA-9808-4F3D97EC50EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67826A0-C7ED-443A-9333-CC64BBB34BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67826A0-C7ED-443A-9333-CC64BBB34BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67826A0-C7ED-443A-9333-CC64BBB34BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67826A0-C7ED-443A-9333-CC64BBB34BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82CCB5DE-16D9-4232-97FA-B8F776ECA2D2} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{827FCDAE-92FA-45DD-B3E1-6EB1F01A8D47} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{5D6DC9A8-B48B-4F0D-86F5-D86E74DE159A} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{20DD75A5-9095-47E6-9F6F-6EADD2A0CB38} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{913BF733-322E-4939-BC17-108C1F1DC9D2} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{5216C60F-8856-43C4-A4D7-679FD5E64467} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{B8292212-4537-4100-9231-E2934EF1B8DA} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{00D1404A-CE5F-4E09-A5AD-3B5597E7F04F} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{666B2DD1-F1E1-4835-9263-84BE9B1263D4} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{8E909021-3D24-4ACA-9808-4F3D97EC50EA} = {A37C522C-4AD3-4B06-9F31-39B5A3BD0A73}
+		{F67826A0-C7ED-443A-9333-CC64BBB34BD4} = {277F8493-647F-460A-A3CC-1EC2DBAE9D8B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4614BE4-6EFC-4CFC-B910-DF58ECFA291C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zkhZrzFz1kkXEXz8sI3R/CAaftsNuTS+5ychtkeTwQo=",
+  "Source": "HomeAssistant.SmartPlugApi",
+  "BasePath": "_content/HomeAssistant.SmartPlugApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

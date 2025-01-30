@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GGnnSxHT2OV6zOhS/jvwEvNfAr3ndxL1sO5AqGMaTiQ=",
+  "Source": "HomeAssistant.SmartClockApi",
+  "BasePath": "_content/HomeAssistant.SmartClockApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,269 @@
+{
+  "Routes": [
+    //SmartClock Service
+    {
+      "DownstreamPathTemplate": "/api/SmartClock",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/smartClock",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartClock/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/smartClock/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartGarage Service
+    {
+      "DownstreamPathTemplate": "/api/SmartGarage",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/smartGarage",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartGarage/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/smartGarage/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartLamp Service
+    {
+      "DownstreamPathTemplate": "/api/SmartLamp",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/smartLamp",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartLamp/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/smartLamp/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    //SmartMicrowave Service
+    {
+      "DownstreamPathTemplate": "/api/SmartMicrowave",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5004
+        }
+      ],
+      "UpstreamPathTemplate": "/smartMicrowave",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartMicrowave/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5004
+        }
+      ],
+      "UpstreamPathTemplate": "/smartMicrowave/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartPlug Service
+    {
+      "DownstreamPathTemplate": "/api/SmartPlug",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/smartPlug",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartPlug/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/smartPlug/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartRefrigerator Service
+    {
+      "DownstreamPathTemplate": "/api/SmartRefrigerator",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5006
+        }
+      ],
+      "UpstreamPathTemplate": "/smartRefrigerator",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartRefrigerator/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5006
+        }
+      ],
+      "UpstreamPathTemplate": "/smartRefrigerator/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartSpeaker Service
+    {
+      "DownstreamPathTemplate": "/api/SmartSpeaker",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5007
+        }
+      ],
+      "UpstreamPathTemplate": "/smartSpeaker",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartSpeaker/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5007
+        }
+      ],
+      "UpstreamPathTemplate": "/smartSpeaker/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartThermostat Service
+    {
+      "DownstreamPathTemplate": "/api/SmartThermostat",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5008
+        }
+      ],
+      "UpstreamPathTemplate": "/smartThermostat",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartThermostat/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5008
+        }
+      ],
+      "UpstreamPathTemplate": "/smartThermostat/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    //SmartTv Service
+    {
+      "DownstreamPathTemplate": "/api/SmartTv",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5009
+        }
+      ],
+      "UpstreamPathTemplate": "/smartTv",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartTv/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5009
+        }
+      ],
+      "UpstreamPathTemplate": "/smartTv/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    //SmartWasher Service
+    {
+      "DownstreamPathTemplate": "/api/SmartWasher",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/smartWasher",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/SmartWasher/ByPassword?devicePassword={devicePassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5010
+        }
+      ],
+      "UpstreamPathTemplate": "/smartWasher/ByPassword?devicePassword={devicePassword}",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:8000"
+  }
+}

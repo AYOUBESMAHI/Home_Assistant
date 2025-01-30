@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+g95aBfUE2B4sDLq0zSCvgpbowGW+VOhIc6Au+YGqWU=",
+  "Source": "HomeAssistant.SmartThermostatApi",
+  "BasePath": "_content/HomeAssistant.SmartThermostatApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

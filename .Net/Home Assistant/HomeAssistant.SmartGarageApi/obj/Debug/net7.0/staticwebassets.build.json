@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JSYJZi7L+K0c5qG2tez3dusN2urlW02MxawPfKrJlMA=",
+  "Source": "HomeAssistant.SmartGarageApi",
+  "BasePath": "_content/HomeAssistant.SmartGarageApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

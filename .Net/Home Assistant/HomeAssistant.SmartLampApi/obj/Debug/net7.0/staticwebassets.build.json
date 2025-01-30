@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8xCCWNzHG+pnD6qOVMDpmHORxGWtoE8dPUfUNS4O3Fc=",
+  "Source": "HomeAssistant.SmartLampApi",
+  "BasePath": "_content/HomeAssistant.SmartLampApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
